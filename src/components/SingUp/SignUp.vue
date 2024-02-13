@@ -82,18 +82,18 @@ const submitForm = async () => {
             <div class="col-md-5 mb-1">
                 <div class="card shadow">
                     <div class="card-header p-0">
-                        <img src="https://cdn.pixabay.com/photo/2016/08/03/13/33/stone-henge-1566686_640.jpg"
+                        <img src="https://image.api.playstation.com/vulcan/img/rnd/202010/0106/IyY3JSzHNCVoh7FultMPaE8F.jpg"
                             class="card-img-top" alt="sign">
                     </div>
                     <div class="card-body">
-                        <p class="card-text text-end">สิ่งมหัศรรย์ของโลก 2024.</p>
+                        <p class="card-text text-end">Monster Hunter World Elder Dragon.</p>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-7">
                 <div class="card shadow">
-                    <div class="card-header bg-primary text-white">
+                    <div class="card-header  text-white" style="background-color: rgb(84, 33, 123)">
                         <h5>ระบบลงทะเบียนผู้ใช้งาน</h5>
                     </div>
                     <div class="card-body">
@@ -162,7 +162,7 @@ const submitForm = async () => {
                             </span>
 
                             <div class="mb-2">
-                                <p type="submit" @click="submitForm" class="btn btn-primary shadow d-block">สมัครสมาชิก</p>
+                                <p type="submit" @click="submitForm" class="btn  shadow d-block text-white shadow" style="background-color: rgb(84, 33, 123)">สมัครสมาชิก</p>
                                 <p @click="SignInPage" class="text-body text-center d-block">
                                     Already have an Account?
                                     <router-link :to="{ name: 'signin' }" class="text-decoration-none font-weight-bold">

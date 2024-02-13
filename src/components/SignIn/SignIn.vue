@@ -63,7 +63,7 @@ function SignUpPage() {
         <div class="row">
             <div class="col-md-5 mx-auto">
                 <div class="card shadow">
-                    <div class="card-header bg-primary">
+                    <div class="card-header " style="background-color: rgb(84, 33, 123)">
                         <h5 class="text-white">เข้าสู่ระบบการจัดการออนไลน์</h5>
                     </div>
                     <div class="card-body text-success">
@@ -87,7 +87,7 @@ function SignUpPage() {
                                 {{ error.$message }}
                             </span>
                             <div class="mb-2">
-                                <p type="submit" @click="submitForm" class="btn btn-primary shadow d-block">เข้าสู่ระบบ</p>
+                                <p type="submit" @click="submitForm" class="btn  shadow d-block text-white shadow" style="background-color: rgb(84, 33, 123)"   >เข้าสู่ระบบ</p>
                                 <p @click="SignUpPage" class="text-body text-center d-block">
                                     Dont' have an Account?
                                     <router-link :to="{ name: 'signup' }" class="text-decoration-none font-weight-bold">

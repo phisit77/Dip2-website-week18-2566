@@ -5,37 +5,37 @@
             <div class="col-md-5 mb-1 mx-auto">
                 <div class="card shadow">
                     <div class="card-header p-0">
-                        <img src="https://static.wanderon.in/wp-content/uploads/2023/11/top-min.jpg" class="card-img-top" alt="elder">
+                        <img src="https://i.ytimg.com/vi/sCCQXtSvBk8/maxresdefault.jpg" class="card-img-top" alt="elder">
                     </div>
                 </div>
             </div>
 
             <div class="col-md-6 mx-auto">
                 <div class="card shadow">
-                    <div class="card-header bg-primary">
+                    <div class="card-header " style="background-color: rgb(84, 33, 123)">
                         <span class="text-white fs-5">
-                            ลงทะเบียนสิ่งมหัศจรรย์ของโลก
+                            ลงทะเบียนมังกรโบราณ
                         </span>
                     </div>
                     <div class="card-body text-success">
                         <form @submit.prevent="addWonder">
                             <div class="mb-1">
-                                <label for="">ชื่อของเอล</label>
+                                <label for="">ชื่อของมังกร</label>
                                 <input type="text" class="form-control" v-model="wonderState.name" />
                             </div>
                             <div class="mb-1">
-                                <label for="">ตำแหน่ง ที่อยู่ สิ่งมหัศจรรย์ของโลก</label>
+                                <label for="">ลักษณะ</label>
                                 <input type="text" class="form-control" v-model="wonderState.label" />
                             </div>
                             <div class="mb-1">
-                                <label for="">ลิงค์ภาพสิ่งมหัศจรรย์ของโลก</label>
+                                <label for="">ลิงค์ภาพ</label>
                                 <input type="text" class="form-control" v-model="wonderState.imageUrl" />
                             </div>
 
                             <div class="mb-1">
 
-                                <button type="submit" class="btn btn-primary text-white shadow">
-                                    ลงทะเบียนสิ่งมหัศจรรย์ของโลก
+                                <button type="submit" class="btn  text-white shadow" style="background-color: rgb(84, 33, 123)">
+                                    ลงทะเบียนมังกรโบราณ
                                 </button>
                             </div>
                         </form>
